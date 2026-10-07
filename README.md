@@ -1,11 +1,33 @@
-# HTML CSS Test 1
+# Landing Page - Nginx Virtual Host
 
-Responsive HTML and CSS website created as part of the internship training process.
+A responsive landing page built using HTML and CSS, based on the provided design reference.
 
-## Development
+The project is served locally using an Nginx virtual host.
 
-The website is served locally using Nginx and a custom virtual host.
+## Features
 
-## Local URL
+- Responsive landing page
+- Desktop and mobile layouts
+- Header navigation
+- Hero section
+- Information cards
+- Quote/testimonial section
+- Call-to-action section
+- Footer
+- Local Nginx virtual host configuration
 
-http://archit-test.local
+## Technologies Used
+
+- HTML5
+- CSS3
+- Nginx
+- Git
+
+## Project Structure
+
+```text
+archit-test/
+├── images/
+├── index.html
+├── style.css
+└── README.md
