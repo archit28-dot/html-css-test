@@ -42,3 +42,60 @@ nav a {
     color: white;
     text-decoration: none;
 }
+.hero {
+    background-color: #1f2937;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 50px;
+
+    padding: 80px 20px;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0 0 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #d1d5db;
+    margin: 0 0 20px;
+    line-height: 1.5;
+}
+
+.hero-content button {
+    background-color: #3882f6;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    padding: 10px 30px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.hero-image {
+    width: 500px;
+    height: 250px;
+
+    background-color: #6b7280;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
