@@ -233,3 +233,62 @@ footer {
 
     font-size: 14px;
 }
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    .hero-content {
+        max-width: 600px;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 500px;
+    }
+        .information {
+        padding: 50px 20px;
+    }
+
+    .information h2 {
+        font-size: 30px;
+    }
+
+    .information-container {
+        gap: 30px;
+    }
+
+    .information-item {
+        width: 140px;
+    }
+
+    .information-box {
+        width: 140px;
+        height: 140px;
+    }
+        .quote {
+        padding: 70px 20px;
+    }
+
+    .quote blockquote {
+        font-size: 26px;
+    }
+
+    .quote-author {
+        font-size: 18px;
+    }
+        .call-to-action {
+        margin: 50px 20px;
+        padding: 40px 30px;
+
+        flex-direction: column;
+        text-align: center;
+    }	
+}
